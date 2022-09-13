@@ -1,0 +1,268 @@
+object Form1: TForm1
+  Left = 660
+  Top = 270
+  Caption = 'Personel Takip - Eren Solmaz Final '#214'devi        '
+  ClientHeight = 453
+  ClientWidth = 663
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  Menu = MainMenu1
+  OldCreateOrder = False
+  Position = poDesigned
+  PixelsPerInch = 96
+  TextHeight = 13
+  object Label1: TLabel
+    Left = 592
+    Top = 16
+    Width = 24
+    Height = 15
+    Caption = 'Saat'
+    Font.Charset = TURKISH_CHARSET
+    Font.Color = clRed
+    Font.Height = -13
+    Font.Name = 'Times New Roman'
+    Font.Style = [fsBold]
+    ParentFont = False
+  end
+  object Label2: TLabel
+    Left = 168
+    Top = 40
+    Width = 294
+    Height = 26
+    Caption = 'Personel Takip - Final '#214'devi'
+    Font.Charset = TURKISH_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -24
+    Font.Name = 'Times New Roman'
+    Font.Style = [fsBold]
+    ParentFont = False
+  end
+  object Label3: TLabel
+    Left = 8
+    Top = 393
+    Width = 134
+    Height = 23
+    Caption = 'Eren Solmaz'
+    Font.Charset = TURKISH_CHARSET
+    Font.Color = clGray
+    Font.Height = -19
+    Font.Name = 'Verdana'
+    Font.Style = [fsBold]
+    ParentFont = False
+  end
+  object Label4: TLabel
+    Left = 8
+    Top = 422
+    Width = 140
+    Height = 23
+    Caption = '2019370060'
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clGray
+    Font.Height = -19
+    Font.Name = 'Verdana'
+    Font.Style = [fsBold]
+    ParentFont = False
+  end
+  object Image1: TImage
+    Left = 240
+    Top = 160
+    Width = 190
+    Height = 200
+    Picture.Data = {
+      0954506E67496D61676589504E470D0A1A0A0000000D49484452000000C80000
+      00C808030000009A865EAC0000007E504C5445FFFFFF0000000E0E0E262626A1
+      A1A1545454ABABABC7C7C7FBFBFB414141070707F0F0F00B0B0B1D1D1DEDEDED
+      F3F3F3E0E0E04747477E7E7E1515153A3A3AC1C1C1191919CFCFCF6E6E6EE1E1
+      E1B5B5B5959595D9D9D98585852929295C5C5CA6A6A68C8C8C62626231313176
+      76769B9B9B4E4E4E606060444444BABABA03845FF8000006D74944415478DAED
+      9DF957A34810C7811C40C09CC698C4E8243EC7DDFFFF8FD97D3BEE4CC6F55835
+      5EB9CDC52666D6C7D574938286F2F1FD690298E113A0BBAABAAA10854F2231EA
+      1348401290982B01899B1290B82901899B1290B82901899B1290B82922905AB6
+      971E095A3AB7B8C30C22AF161FFF2E2DFA6841DA7713D32729FD8614A4FC6CFB
+      3C0C82843FC8D985834CBD420822CF9CDB2AC3293A10A5F9DD65EBD13FE8409A
+      376E5BD5EC0B32104D1ABA6EAFFD8B0CC4F9A4FF02DCBBC50572FA9DB0E3CB0F
+      5420BFFF49DAD3F91B154887FCBBEF3F2002C91B43E23EE808CC15A4E1F14443
+      2745AE20871E36BB5A86D9293C410AABA1C7DEFA0DF317450D52BBF7DA7B7AC1
+      FA3D9183D8ED77ABCEBBA0878427C8FEA327E6E2150948B16F78EE2F800C478E
+      205F7E7AEF873DED1C410E29011398B9C50FA450A0CCDD30539E1F889B8F6B51
+      7A8E03A4497B049409D3F7440E52A20D4A951E0A90FC82F6834B19C88CC80D24
+      BDA41DA18B90E0293790934BDA11E5256446E40592CF3C514FA50A89CCF302C9
+      D2C7561C209905F5106D0E09667302A90F46D463D42502903306AF49D5208114
+      4E20C4C01C3210AA9DF50E82E0D6A259F0EFD2B4D88F5A7985E5A64130FCB6BB
+      2C47C156E07880505DAAADAA29C8D2020F9006DB09EA2BFA5C132D887718E843
+      2DAA59193108E30589BF63C5784162EFEAB25E90B8071F149DF182C43D1C4477
+      71FF176CCD2A6C108DDD124CD15D960841BC97122C822D87860C521BB00F45B1
+      8EC6ABECA1AAF21C944A172E089BB5B855651EDF859EA3271F73DCF14FF66339
+      83B04F211B95A881AFC84098FCC20F6558DCE14840986D93AD80C928E181D446
+      BEDC0B58E43744106DBAF2757C5C73510A339FE7D566887C4501C210EBB50A9A
+      421712087D35C4AEDFFE882188D2F0FDF3C2220F218128277FF9FE1BE0BC1E0A
+      483EB5C3405A190033FD8307A9E93B8D3FDA5BF52956ABBAD5D5CE36532B351E
+      EEFCA4040DD282652676C4AEBEDB0C1F2CC8D123BC7EA23AA85F1EF6FDCEA7C1
+      8234A73053DC4433977B078FAAC1EE6B050822E7C0B51356A9A98327597F5B65
+      667349C8AC37CC5F8A9925C1A60E0CA46EF441214F6F24695C12846721278CF7
+      9587C2F2CDE9DE0704524F5F1BF06F6156D9C8D907150BC809435661C525B059
+      D7EE86F4BF0C16256FB38244E2078234FB292B46F335A867DC8F8EEF2C039BE5
+      DC2586DB43B2C672F37BE3801F716659A3F750105A0E6C986A5C0708C2929B11
+      96C49A69288682B0AF1A8420F325410D523485FA5183E8834F02229A224E0948
+      1C40CCE7821AE4CC14E4400D625E3EC50C529E9A3C7CCC20275DD307C420D698
+      1E5E90F64DA0667C5420E2E937DB0694207AAD67F7823082A40D97201E3A1055
+      59B9BAA4D840CA1261F1171B08B17C141908B9C705321072651C3210A1DD2324
+      43610311744D19C92E8B30E840DE4F3A653896F15182ACD5E9DB8661AC208EA4
+      54BC20B629053188359B133188350F07338862986647CC2096A43BCC20EA9E29
+      FB133388D830CDF098413A3D533E0166104BCA336690A6D976440C62CD41C70B
+      7276F9290274F67C01AC2065E5DAB605254855361C3E223210512C2D2B996B17
+      BF1D154867BA20666F620251321EE56498403C4B65308178968E6202D1F6BB9F
+      03643D9B774BA402345C206B674AD65F5D1F796C206BE987DF5CB62204712CE8
+      E20571AB2CC309E2B2708514A4756FBFB9908208597B2513561047D922561047
+      076DAC208EDE2358411C85A4484174C95EB48414C459A28C13C412F5450CA217
+      9C0BED1841F49C8B538210E4EBAD9B43820EA492754F74C205A297E7A4126B3C
+      20E595D8AF925BAD6001A964C753CF3A6424206ECE2D4690CE35B52A1C070843
+      A7271C200C2D1C7180A8336AE31B1C20EBFFA72A097DAF26755840D652DFA4A3
+      6762853322908DF409E91E4357744CEAF00605A9E67FF0EC912008C589FB9402
+      0511B4D2437DBA3026E175AEB0AAF5E8BE1C0A06F985737C373806F62C639325
+      FF2F78902D4CFF5E0676C9A28B34C90708B251BEB9BA9043BDCBB284F655F02E
+      1C7629EDF98B9F8E99FE744E7A7DAAE5DC1B0C7DC24F197AC5297BCA8DBFE686
+      CC225D90D0BA026AB9BD05FC85D20E91DB4D87D802546BCC402DED5DE4F1F2C7
+      70FBFDD672CB202F8B574BE0B07B622BEDF104F8EADF0F75C61E6D5E3974F22F
+      56AFE07DD0D63ABF6136E3C392629446E0764FA757EC519410A515B52BC844A9
+      57BADE07707CD5A6DC18EC3C51B69F683DA3B8BEB2B9306D19BB58968A4E1F2F
+      38BF687E6D3D4C259FD7255D6579BD2B77908D0193D52E58BDB1B231626B721A
+      01C846F9E6FC71411DC85AB7A2C2DADE3F22902DCC34F5D82718FDEABEB85A8E
+      7CF4F68F10644BA30ACFB5B9DC4FE59EB39B6E59A5D9416692E996A489CF372D
+      440D12981290B82901899B1290B8E93FC53BB8E705CFBCC90000000049454E44
+      AE426082}
+  end
+  object Label5: TLabel
+    Left = 128
+    Top = 106
+    Width = 395
+    Height = 24
+    Caption = 'Sayfalara ge'#231'i'#351' i'#231'in men'#252'leri kullanabilirsiniz'
+    Font.Charset = TURKISH_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -21
+    Font.Name = 'Times New Roman'
+    Font.Style = [fsBold]
+    ParentFont = False
+  end
+  object MainMenu1: TMainMenu
+    Left = 568
+    Top = 400
+    object asd1: TMenuItem
+      Caption = 'Personel'
+      object MevcutrnleriGrntle1: TMenuItem
+        Caption = 'Personelleri G'#246'r'#252'nt'#252'le'
+        OnClick = MevcutrnleriGrntle1Click
+      end
+      object PersonelEkle1: TMenuItem
+        Caption = '-'
+      end
+      object rnEkle1: TMenuItem
+        Caption = 'Personel Ekle'
+        OnClick = rnEkle1Click
+      end
+      object htiyalarGrntle1: TMenuItem
+        Caption = 'Personelleri D'#252'zenle'
+        OnClick = htiyalarGrntle1Click
+      end
+      object N1: TMenuItem
+        Caption = '-'
+      end
+      object k2: TMenuItem
+        Caption = #199#305'k'
+      end
+    end
+    object rnler1: TMenuItem
+      Caption = #220'r'#252'nler'
+      object rnleriGrntle1: TMenuItem
+        Caption = #220'r'#252'nleri G'#246'r'#252'nt'#252'le'
+        OnClick = rnleriGrntle1Click
+      end
+      object rnEkle2: TMenuItem
+        Caption = '-'
+      end
+      object rnEkle3: TMenuItem
+        Caption = #220'r'#252'n Ekle'
+        OnClick = rnEkle3Click
+      end
+      object rnleriDzenle1: TMenuItem
+        Caption = #220'r'#252'nleri D'#252'zenle'
+        OnClick = rnleriDzenle1Click
+      end
+      object N2: TMenuItem
+        Caption = '-'
+      end
+      object k3: TMenuItem
+        Caption = #199#305'k'
+      end
+    end
+    object htiyalar1: TMenuItem
+      Caption = #304'htiya'#231'lar'
+      object htiyalarGrntle2: TMenuItem
+        Caption = #304'htiya'#231'lar'#305' G'#246'r'#252'nt'#252'le'
+        OnClick = htiyalarGrntle2Click
+      end
+      object htiyalaraEklemeYap1: TMenuItem
+        Caption = '-'
+      end
+      object htiyalaraEklemeYap2: TMenuItem
+        Caption = #304'htiya'#231'lara Ekleme Yap'
+        OnClick = htiyalaraEklemeYap2Click
+      end
+      object htiyalarDzenleSil1: TMenuItem
+        Caption = #304'htiya'#231'lar'#305' D'#252'zenle/Sil'
+        OnClick = htiyalarDzenleSil1Click
+      end
+      object k4: TMenuItem
+        Caption = #199#305'k'
+      end
+    end
+    object Dier1: TMenuItem
+      Caption = 'Di'#287'er'
+      object Demotablolar1: TMenuItem
+        Caption = '54 Nolu '#252'r'#252'n'#252' bulma'
+        OnClick = Demotablolar1Click
+      end
+      object yedeklemeyapma1: TMenuItem
+        Caption = 'Verileri Yedekle'
+        OnClick = yedeklemeyapma1Click
+      end
+      object veriarama1: TMenuItem
+        Caption = 'Veri arama'
+        OnClick = veriarama1Click
+      end
+      object N3: TMenuItem
+        Caption = '-'
+      end
+      object k5: TMenuItem
+        Caption = #199#305'k'
+      end
+    end
+    object k1: TMenuItem
+      Caption = #199#305'k'#305#351
+      OnClick = k1Click
+    end
+  end
+  object ADOConnection1: TADOConnection
+    Connected = True
+    ConnectionString = 
+      'Provider=Microsoft.Jet.OLEDB.4.0;Data Source=C:\Users\solma\OneD' +
+      'rive\Masa'#252'st'#252'\erensolmaz\database\personeltakip.mdb;Persist Secu' +
+      'rity Info=False'
+    LoginPrompt = False
+    Mode = cmShareDenyNone
+    Provider = 'Microsoft.Jet.OLEDB.4.0'
+    Left = 496
+    Top = 400
+  end
+  object Timer1: TTimer
+    Interval = 250
+    OnTimer = Timer1Timer
+    Left = 624
+    Top = 408
+  end
+end
