@@ -1,5 +1,8 @@
 # Veri-girisleri
+
 ## Delphi desktop application data entry, view and delete, database, database backup...
+
+### - REQUIRED INSTALL TeeChart!
 
 
 ![1](https://user-images.githubusercontent.com/40443383/190016012-ce9310c6-33c4-45ce-b77b-4f0e0bf53a28.png)
