@@ -42,7 +42,6 @@ type
     k5: TMenuItem;
     Label2: TLabel;
     Label3: TLabel;
-    Label4: TLabel;
     Image1: TImage;
     Label5: TLabel;
     procedure MevcutrnleriGrntle1Click(Sender: TObject);

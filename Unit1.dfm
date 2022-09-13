@@ -1,9 +1,9 @@
 object Form1: TForm1
   Left = 660
   Top = 270
-  Caption = 'Personel Takip - Eren Solmaz Final '#214'devi        '
-  ClientHeight = 453
-  ClientWidth = 663
+  Caption = 'Personel Takip Uygulamas'#305' - Eren Solmaz     '
+  ClientHeight = 449
+  ClientWidth = 661
   Color = clBtnFace
   Font.Charset = DEFAULT_CHARSET
   Font.Color = clWindowText
@@ -11,9 +11,7 @@ object Form1: TForm1
   Font.Name = 'Tahoma'
   Font.Style = []
   Menu = MainMenu1
-  OldCreateOrder = False
   Position = poDesigned
-  PixelsPerInch = 96
   TextHeight = 13
   object Label1: TLabel
     Left = 592
@@ -29,11 +27,11 @@ object Form1: TForm1
     ParentFont = False
   end
   object Label2: TLabel
-    Left = 168
+    Left = 192
     Top = 40
-    Width = 294
+    Width = 279
     Height = 26
-    Caption = 'Personel Takip - Final '#214'devi'
+    Caption = 'Personel Takip Uygulamas'#305
     Font.Charset = TURKISH_CHARSET
     Font.Color = clWindowText
     Font.Height = -24
@@ -48,19 +46,6 @@ object Form1: TForm1
     Height = 23
     Caption = 'Eren Solmaz'
     Font.Charset = TURKISH_CHARSET
-    Font.Color = clGray
-    Font.Height = -19
-    Font.Name = 'Verdana'
-    Font.Style = [fsBold]
-    ParentFont = False
-  end
-  object Label4: TLabel
-    Left = 8
-    Top = 422
-    Width = 140
-    Height = 23
-    Caption = '2019370060'
-    Font.Charset = ANSI_CHARSET
     Font.Color = clGray
     Font.Height = -19
     Font.Name = 'Verdana'
@@ -248,10 +233,9 @@ object Form1: TForm1
     end
   end
   object ADOConnection1: TADOConnection
-    Connected = True
     ConnectionString = 
-      'Provider=Microsoft.Jet.OLEDB.4.0;Data Source=C:\Users\solma\OneD' +
-      'rive\Masa'#252'st'#252'\erensolmaz\database\personeltakip.mdb;Persist Secu' +
+      'Provider=Microsoft.Jet.OLEDB.4.0;Data Source=C:\Users\solma\Desk' +
+      'top\VeriGirisiUygulamasi\database\personeltakip.mdb;Persist Secu' +
       'rity Info=False'
     LoginPrompt = False
     Mode = cmShareDenyNone
