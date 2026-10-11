@@ -1,4 +1,32 @@
-# Veri-girisleri
+<div align="center">
+
+# 🗃️ Personnel Tracking (Delphi)
+
+**A Delphi desktop app for entering, viewing, editing and backing up personnel records**
+
+![Delphi](https://img.shields.io/badge/Delphi-EE1F35?style=for-the-badge&logo=delphi&logoColor=white) ![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
+
+</div>
+
+---
+
+## ✨ Features
+
+- Add, view, edit and delete persons
+- Microsoft Access database (`.mdb`) via ADO
+- Database backup file (`database/yedek.mdb`)
+- Charts using TeeChart
+- Multi-form desktop UI
+
+## 🚀 Getting Started
+
+> ⚠️ **TeeChart must be installed** in your Delphi IDE.
+
+1. Open `Project1.dproj` in **Embarcadero Delphi** (RAD Studio).
+2. Make sure `database/personeltakip.mdb` is reachable by the ADO connection.
+3. Build & run (`F9`).
+
+## 📸 Screenshots
 
 ## Delphi desktop application data entry, view and delete, database, database backup...
 
@@ -82,3 +110,10 @@
 
 ![Adsız](https://user-images.githubusercontent.com/40443383/190018176-980fa36e-45f4-436b-bf5f-8e90e16fe4d4.png)
 
+---
+
+<div align="center">
+
+Made by [Eren Solmaz](https://github.com/erensolmaz) · [LinkedIn](https://linkedin.com/in/noiren)
+
+</div>
